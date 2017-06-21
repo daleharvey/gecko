@@ -55,6 +55,7 @@
   --arrowpanel-dimmed-even-further: hsla(210,4%,10%,.17);
 
   --urlbar-separator-color: hsla(0,0%,16%,.2);
+  --urlbar-light-separator-color: hsla(0,0%,16%,.2);
 }
 
 %ifndef MOZ_PHOTON_THEME
@@ -669,14 +670,6 @@ toolbarpaletteitem[place="palette"] > #personal-bookmarks > #bookmarks-toolbar-p
 .urlbar-input-box {
   margin: 0;
   padding: 3px 0 2px;
-}
-
-.urlbar-input-box,
-#urlbar-display-box {
-  padding-inline-start: 4px;
-  border-inline-start: 1px solid var(--urlbar-separator-color);
-  border-image: linear-gradient(transparent 15%, var(--urlbar-separator-color) 15%, var(--urlbar-separator-color) 85%, transparent 85%);
-  border-image-slice: 1;
 }
 
 .urlbar-history-dropmarker {

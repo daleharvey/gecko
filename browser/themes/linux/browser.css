@@ -43,6 +43,7 @@
   --arrowpanel-dimmed-even-further: hsla(0,0%,80%,.8);
 
   --urlbar-separator-color: ThreeDShadow;
+  --urlbar-light-separator-color: ThreeDShadow;
 }
 
 #menubar-items {
@@ -330,14 +331,6 @@ menuitem.bookmark-item {
 
 .urlbar-input-box {
   margin: 0;
-}
-
-.urlbar-input-box,
-#urlbar-display-box {
-  padding-inline-start: 4px;
-  border-inline-start: 1px solid var(--urlbar-separator-color);
-  border-image: linear-gradient(transparent 15%, var(--urlbar-separator-color) 15%, var(--urlbar-separator-color) 85%, transparent 85%);
-  border-image-slice: 1;
 }
 
 .urlbar-history-dropmarker {
